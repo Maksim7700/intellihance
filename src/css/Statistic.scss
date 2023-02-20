@@ -1,0 +1,42 @@
+.statistic {
+  margin-top: 286px;
+  background: #EE4242;
+  height: 814px;
+  width: 100%;
+}
+
+.image-mockup {
+  margin-top: -186px;
+}
+
+.stats {
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(288,1fr);
+}
+
+.block {
+  height: 115px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);;
+  justify-content: center;
+  text-align: center;
+  width: 288px;
+}
+
+.block-1 {
+  border-left: none;
+}
+
+.mocks {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.values {
+  margin-top: 8px;
+  font-size: 20px;
+  opacity: 0.7;
+}
