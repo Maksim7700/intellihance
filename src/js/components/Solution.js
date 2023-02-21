@@ -1,6 +1,7 @@
 import Container from '../UI/Containter'
 import '../../css/Solution.scss';
 import demoImg from '../images/demo.png';
+import demoImg2 from '../images/demo2.png';
 
 const Solution = () => {
   return (
@@ -34,7 +35,7 @@ const Solution = () => {
                 &emsp;&#8226;&emsp;Report Summary page highlighting the most important metrics</div>
               <div className='demo-button Montserrat-500'><button>Book a Demo</button></div>
             </div>
-            <div className='demo-image'><img src={demoImg} alt='Demo'/></div>
+            <div className='demo-image'><img src={demoImg2} alt='Demo'/></div>
           </div></div>
         </div>
     </Container>
