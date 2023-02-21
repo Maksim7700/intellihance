@@ -32,7 +32,7 @@ const Steps = () => {
               <div className='Montserrat-400 step-task-desc'>Select a Plan to Generate your Report</div>
             </div>
           </div>
-          <div className='button-step Montserrat-500'><button>get started</button></div>
+          <div className='button-step'><button className='Montserrat-500'>Get Started</button></div>
         </div>
       </Container>
     </div>
