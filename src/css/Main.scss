@@ -1,4 +1,28 @@
+@media only screen and (max-width: 1260px) {
+  .title {
+    font-size: 32px !important;
+    line-height: 41px !important;
+  }
 
+  .main {
+    margin-top: 64px !important;
+  }
+
+  .desc {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    margin-top: 16px !important ;
+  }
+
+  .button {
+    margin-top: 24px !important;
+  }
+
+  .button button {
+    max-width: 343px !important;
+  }
+
+ }
 .title {
   font-size: 64px;
   display: flex;
@@ -33,7 +57,8 @@
 
 .button .get-started {
   font-size: 16px;
+  max-width: 204px;
   height: 54px;
-  width: 204px;
+  width: 100%;
   border-radius: 6px;
 }

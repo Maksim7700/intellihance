@@ -26,7 +26,7 @@ const Steps = () => {
               <div className='step-img2'><img src={document2} alt='Document favorite'/></div>
               <div className='Montserrat-400 step-task-desc'>Specify your Area, Business, Ideal Customer Profile</div>
             </div>
-            <div className='step-task'>
+            <div className='step-task step-task-last'>
               <div className='step-img'><img src={taskSquare} alt='Task square'/></div>
               <div className='step-img2'><img src={task3} alt='Task square'/></div>
               <div className='Montserrat-400 step-task-desc'>Select a Plan to Generate your Report</div>

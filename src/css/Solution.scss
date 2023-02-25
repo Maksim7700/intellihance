@@ -1,3 +1,60 @@
+@media only screen and (max-width: 1260px) {
+  .solution {
+    margin-top: 64px !important;
+  }
+
+  .demo-text-box-right {
+    flex-direction: column-reverse !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .demo-solution {
+    flex-direction: column !important;
+    margin-top: 24px !important;
+  }
+  .demo-solution-entrepreneurs {
+    flex-direction: column-reverse !important;
+    margin-top: 64px !important;
+    margin-bottom: 64px !important;
+  }
+  .demo-text-box {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .demo-image {
+    display: flex;
+    justify-content: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .demo-image img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .solution-title {
+    font-size: 24px !important;
+    line-height: 31px !important;
+  }
+  .pre-title {
+    margin-top: 24px !important;
+    font-size: 18px !important;
+  }
+  .demo-title {
+    font-size: 20px !important;
+    margin-top: 8px !important;
+  }
+  .demo-text {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    margin-top: 16px !important;
+  }
+  .demo-button button{
+    max-width: 343px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+  }
+}
+
 .solution {
   margin-top: 160px;
   display: flex;

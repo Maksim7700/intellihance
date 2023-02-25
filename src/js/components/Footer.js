@@ -8,9 +8,9 @@ const Footer = () => {
     <Container>
       <div className='footer'>
         <div className='footer-head'>
-          <div><img src={intellihance} alt='intellihance'/></div>
+          <div className='footer-logo'><img src={intellihance} alt='intellihance'/></div>
           <div className='social'>
-            <img src={'./linkedin.svg'} alt='linked-in'/>
+            <img className='social-left' src={'./linkedin.svg'} alt='linked-in'/>
             <img src={'./youtube.svg'} alt='youtube'/>
             <img src={'./twitter.svg'} alt='twitter'/>
             <img src={'./facebook.svg'} alt='facebook'/>

@@ -6,7 +6,7 @@ const IntellihanceTM = () => {
   return (
     <Container>
       <div className='intellihance-tm'>
-        <div><img src={intellihanceNotebook} alt='intellihance notebook information'/></div>
+        <div className='image-intellihance-tm'><img src={intellihanceNotebook} alt='intellihance notebook information'/></div>
         <div className='intellihance-tm-information'>
           <div className='Rifton intellihance-title-tm'>Intellihance™</div>
           <div className='Montserrat-400 intellihance-text-tm'>Is a dynamic platform that provides real-time, customized competitive intelligence, opportunity scores, and key metrics you need to help inform and build your marketing strategy and business plan.

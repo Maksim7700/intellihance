@@ -1,3 +1,23 @@
+@media only screen and (max-width: 1260px) {
+  .statistic {
+    margin-top: 93px !important;
+  }
+
+  .image-mockup {
+    margin-top: -65px !important;
+  }
+
+  .stats {
+    grid-template-columns: repeat(auto-fit,minmax(174px,1fr)) !important;
+  }
+  .mocks, .values {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+
+}
+
+
 .statistic {
   margin-top: 286px;
   background: #EE4242;
@@ -7,8 +27,16 @@
 
 .image-mockup {
   margin-top: -186px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.image-mockup img {
+  max-width: 1156px;
+  height: 100%;
+  width: 100%;
+  max-height: 768px;
+}
 .stats {
   max-width: 1152px;
   margin-left: auto;
@@ -23,7 +51,8 @@
   border-left: 1px solid rgba(255, 255, 255, 0.3);;
   justify-content: center;
   text-align: center;
-  width: 288px;
+  max-width: 288px;
+  width: 100%;
 }
 
 .block-1 {

@@ -11,7 +11,7 @@ const Solution = () => {
             <div className='solution-title Rifton'>Solutions</div>
           </div>
           <div className='demo-solution'>
-            <div><img src={demoImg} alt='Demo'/></div>
+            <div className='demo-image'><img src={demoImg} alt='Demo'/></div>
             <div className='demo-text-box'>
               <div className='pre-title Montserrat-500'>For Consultants</div>
               <div className='demo-title Rifton'>Streamline research time for better client support</div>

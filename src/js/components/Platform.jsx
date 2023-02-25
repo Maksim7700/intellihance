@@ -42,7 +42,7 @@ const Platform = () => {
           </div>
           <div className='video-box'>
             <div className='video'>
-              <embed height={314} width={522} src="https://www.youtube.com/embed/zC4rZpHf8tw?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=1&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fideaconsult.biz&amp;widgetid=1"></embed>
+              <embed src="https://www.youtube.com/embed/zC4rZpHf8tw?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=1&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fideaconsult.biz&amp;widgetid=1"></embed>
             <video height="320" width="320" src="" playsinline="" controlslist="nodownload"></video>
               </div>
             <div className='video-button Montserrat-500'><button>Try Now</button></div>

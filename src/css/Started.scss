@@ -1,5 +1,34 @@
 $red-color: #EE4242;
 
+@media only screen and (max-width: 1260px) {
+  .started-title  {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  .started {
+    padding-top: 32px !important;
+  }
+  .started-buttons {
+    flex-direction: column;
+    margin-top: 24px !important;
+    margin-bottom: 32px !important;
+  }
+
+  .started-buttons button {
+    max-width: 343px !important;
+    width: 100% !important;
+  }
+ .get-started-started {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .sign-in-started {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 16px !important;
+  }
+
+}
 .started {
   display: flex;
   justify-content: center;
