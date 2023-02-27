@@ -6,12 +6,22 @@
   .business-block-2 {
     flex-direction: column;
     margin-bottom: 64px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .business-block-desc-2, .business-block-desc {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .bussiness-img-1, .bussiness-img-2 {
     margin-left: auto !important;
     margin-right: auto;
   }
   .business-block-desc {
+    max-width: 832px !important;
+    width: 100% !important;
     margin-top: 24px !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -25,6 +35,11 @@
   }
   .business-button {
     margin-bottom: 131px !important;
+  }
+  .business-button button {
+    max-width: 343px !important;
+    width: 100% !important;
+
   }
 
   .bussines-title {

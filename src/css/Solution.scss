@@ -75,7 +75,11 @@
 }
 
 .demo-text-box {
+  max-width: 734px;
   margin-left: 187px;
+}
+.demo-text-box-right {
+  max-width: 734px;
 }
 
 .pre-title {
@@ -101,6 +105,8 @@
 
 .demo-button {
   margin-top: 32px;
+  display: flex;
+  justify-content: centergi;
 }
 
 .demo-button button {

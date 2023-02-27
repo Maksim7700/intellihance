@@ -47,6 +47,9 @@
 
 
 .intellihance-tm {
+  opacity: 1;
+  translate: "0 2rem";
+        transition: "600ms ease-in-out";
   display: flex;
   justify-content: flex-start;
   margin-top: 150px;

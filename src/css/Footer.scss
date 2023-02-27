@@ -6,7 +6,13 @@
     margin-right: auto;
   }
   .footer-logo {
+    display: flex;
+    justify-content: center;
     margin-bottom: 24px !important;
+  }
+  .footer-logo img{
+    width: 148px;
+    height: 28px;
   }
   .footer-head {
     margin-top: 32px !important;

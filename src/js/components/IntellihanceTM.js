@@ -3,6 +3,7 @@ import Container from '../UI/Containter';
 import intellihanceNotebook from '../images/intellihance-mac.png';
 
 const IntellihanceTM = () => {
+
   return (
     <Container>
       <div className='intellihance-tm'>

@@ -5,6 +5,8 @@ import '../../css/fonts/fonts.css';
 import intellihance from '../images/intellihance-logo.svg';
 
 const Header = () => {
+
+
   return (
     <Container>
       <div className='d-flex justify-content-between'>
