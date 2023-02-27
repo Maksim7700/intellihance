@@ -1,7 +1,6 @@
 import Container from '../UI/Containter';
 import '../../css/Statistic.scss';
 import '../../css/fonts/fonts.css';
-import mockup from '../images/Mockup.svg';
 
 const Statistic = () => {
   return (
@@ -9,7 +8,7 @@ const Statistic = () => {
       <Container>
         <div className='d-flex flex-direction-column justify-content-center'>
           <div className='image-mockup d-flex justify-content-center'>
-            <img src={mockup} alt='mockup'/>
+            <img src={'../Mockup.svg'} alt='mockup'/>
           </div>
           <div className='before-stats-block'>
             <div className='stats'>
