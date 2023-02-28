@@ -21,7 +21,7 @@ const Solution = () => {
               &emsp;&#8226;&emsp;Organize reports by clients<br/>
               &emsp;&#8226;&emsp;Extend your access to five team members<br/>
               Request a customized demo of Intellihance and explore how it can streamline your business model today.</div>
-              <div className='demo-button Montserrat-500'><button>Book a Demo</button></div>
+              <div className='demo-button'><button className='Montserrat-500'>Book a Demo</button></div>
             </div>
           </div>
           <div><div className='demo-solution demo-solution-entrepreneurs'>
@@ -33,7 +33,7 @@ const Solution = () => {
                 &emsp;&#8226;&emsp;User-friendly Interface<br/>
                 &emsp;&#8226;&emsp;Description of every data set, helping you make sense out of it<br/>
                 &emsp;&#8226;&emsp;Report Summary page highlighting the most important metrics</div>
-              <div className='demo-button Montserrat-500'><button>Book a Demo</button></div>
+              <div className='demo-button '><button className='Montserrat-500'>Book a Demo</button></div>
             </div>
             <div className='demo-image'><img src={demoImg2} alt='Demo'/></div>
           </div></div>
