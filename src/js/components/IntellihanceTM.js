@@ -1,6 +1,6 @@
 import '../../css/Intellihancetm.scss';
 import Container from '../UI/Containter';
-import intellihanceNotebook from '../images/intellihance-mac.png';
+import intellihanceNotebook from '../images/intellihance-tm.png';
 
 const IntellihanceTM = () => {
 

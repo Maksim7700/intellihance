@@ -4,13 +4,17 @@
   }
 
   .demo-text-box-right {
-    flex-direction: column-reverse !important;
-    margin-left: auto !important;
+    max-width: 1260px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
   }
   .demo-solution {
     flex-direction: column !important;
     margin-top: 24px !important;
+  }
+  .demo-solution-entrepreneurs .demo-image {
+    margin-left: 0 !important;
   }
   .demo-solution-entrepreneurs {
     flex-direction: column-reverse !important;
@@ -18,13 +22,14 @@
     margin-bottom: 64px !important;
   }
   .demo-text-box {
-    margin-left: auto !important;
+    max-width: 1260px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
   }
   .demo-image {
     display: flex;
     justify-content: center;
-    margin-left: auto !important;
     margin-right: auto !important;
   }
   .demo-image img {
@@ -49,7 +54,7 @@
     margin-top: 16px !important;
   }
   .demo-button button{
-    max-width: 343px !important;
+    max-width: 1260px !important;
     width: 100% !important;
     font-size: 16px !important;
   }
@@ -75,15 +80,20 @@
 }
 
 .demo-text-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   max-width: 734px;
   margin-left: 187px;
 }
 .demo-text-box-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   max-width: 734px;
 }
 
 .pre-title {
-  margin-top: 44px;
   color: #EE4242;
   font-size: 18px;
   line-height: 130%;
@@ -118,11 +128,9 @@
   color: white;
   font-size: 16px;
 }
-
-.demo-image {
-  margin-left: 187px;
-}
-
 .demo-solution-entrepreneurs {
   margin-bottom: 150px;
+}
+.demo-solution-entrepreneurs .demo-image {
+  margin-left: 187px;
 }

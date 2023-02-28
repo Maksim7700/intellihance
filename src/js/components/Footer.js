@@ -17,7 +17,7 @@ const Footer = () => {
             <img src={'./instagram.svg'} alt='instagram'/>
           </div>
         </div>
-        <div className='hr'><hr/></div>
+        <div className='hr'></div>
         <div className='footer-fot'>
           <div className='terms'>
             <div className='term Montserrat-400'>Terms of Use</div>

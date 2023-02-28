@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1260px) {
   .statistic {
     margin-top: 93px !important;
+    padding-bottom: 32px !important;
   }
 
   .image-mockup {
@@ -16,12 +17,17 @@
     font-size: 20px !important;
     line-height: 26px !important;
   }
+  .mocks {
+    margin-top: 0 !important;
+  }
   .block {
     margin-left: auto;
     margin-right: auto;
     border: none !important;
     max-width: 288px;
     width: 100% !important;
+    height: auto !important;
+    margin-bottom: 32px !important;
   }
 }
 
@@ -37,6 +43,7 @@
   margin-top: -186px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .image-mockup img {

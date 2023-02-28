@@ -15,7 +15,7 @@ $red-color: #EE4242;
   }
 
   .started-buttons button {
-    max-width: 343px !important;
+    max-width: 1260px !important;
     width: 100% !important;
   }
  .get-started-started {
@@ -30,16 +30,16 @@ $red-color: #EE4242;
 
 }
 .started {
+  padding-bottom: 64px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 64px;
   background-color: $red-color;
 }
 
 .started-buttons {
   margin-top: 48px;
-  margin-bottom: 64px;
   display: flex;
   justify-content: center;
 }
