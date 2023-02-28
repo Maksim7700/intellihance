@@ -24,7 +24,7 @@ const Statistic = () => {
                 <div className='mocks Rifton'>9,000 +</div>
                 <div className='values Montserrat-500'>Industries</div>
               </div>
-              <div className='block'>
+              <div className='block block-last'>
                 <div className='mocks Rifton'>184 Billion+</div>
                 <div className='values Montserrat-500'>Market Combinations</div>
               </div>

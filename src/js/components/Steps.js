@@ -13,7 +13,7 @@ const Steps = () => {
         <div className='steps'>
           <div>
             <div className='steps-title Rifton'>3 easy steps to get started</div>
-            <div className='steps-desc Montserrat-500'>Test-drive Intellihance™ to search your market area, browse through our list of industries, and explore the full capabilities of creating your custom report.</div>
+            <div className='steps-desc Montserrat-400'>Test-drive Intellihance™ to search your market area, browse through our list of industries, and explore the full capabilities of creating your custom report.</div>
           </div>
           <div className='steps-steo'>
             <div className='step-task'>

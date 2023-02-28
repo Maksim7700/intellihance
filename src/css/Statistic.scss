@@ -15,7 +15,7 @@
   }
   .mocks, .values {
     font-size: 20px !important;
-    line-height: 26px !important;
+    line-height: 150% !important;
   }
   .mocks {
     margin-top: 0 !important;
@@ -31,7 +31,9 @@
   }
 }
 
-
+.block-last {
+  margin-bottom: 0 !important;
+}
 .statistic {
   margin-top: 286px;
   background: #EE4242;

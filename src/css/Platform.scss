@@ -16,11 +16,11 @@
     margin-left: -55px !important;
     margin-top: 10px !important;
     font-size: 16px !important;
-    line-height: 20px !important;
+    line-height: 150% !important;
   }
   .market-title {
     font-size: 18px !important;
-    line-height: 23px !important;
+    line-height: 150% !important;
   }
   .market-information {
     padding-left: 16px !important;
@@ -51,13 +51,18 @@
   .market-information {
     max-width: 1260px !important;
   }
+
+  .video-flex {
+    margin-left: 0 !important;
+  }
 }
 
 .video-flex {
   display: flex;
   flex-direction: column;
-
+  margin-left: 40px;
 }
+
 .platrofm-div {
   background: #EE4242;
   padding-top: 150px;
@@ -102,7 +107,7 @@
 }
 
 .market-desc {
-  line-height: 24px;
+  line-height: 150%;
   font-size: 18px;
   color: white;
   opacity: 0.8;
@@ -126,7 +131,6 @@
 .video-box {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
 }
 
 .video embed{

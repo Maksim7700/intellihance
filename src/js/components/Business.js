@@ -37,7 +37,7 @@ const Business = () => {
             <div className='business-desc Montserrat-400'>We provide in-depth data on over 1,500 industries. Learn and monitor key insights, such as revenue and growth, to improve your decision-making process.</div>
           </div>
         </div>
-        <div className='business-button'><button className='Montserrat-500'>Try now</button></div>
+        <div className='business-button'><button className='Montserrat-500'>Try Now</button></div>
       </div>
     </Container>
   );
