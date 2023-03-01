@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1260px) {
+  .intellihance-tm-button button:hover {
+    cursor: pointer;
+    color: white;
+    background: #F35D5D;
+  }
+}
+
 @media only screen and (max-width: 1260px) {
   .intellihance-tm {
     justify-content: center;

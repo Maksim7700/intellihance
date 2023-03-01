@@ -43,8 +43,7 @@ const Platform = () => {
           <div className='video-flex'>
           <div className='video-box'>
             <div className='video'>
-              <embed src="https://www.youtube.com/embed/zC4rZpHf8tw?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=1&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fideaconsult.biz&amp;widgetid=1"></embed>
-            <video height="320" width="320" src="" playsInline="" controlsList="nodownload"></video>
+              <iframe src='https://www.youtube.com/embed/zC4rZpHf8tw?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=1&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fideaconsult.biz&amp;widgetid=1' allowFullScreen title='Y'></iframe>
               </div>
           </div>
           <div className='video-button'><button className='Montserrat-500'>Try Now</button></div>

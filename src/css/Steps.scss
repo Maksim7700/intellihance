@@ -1,3 +1,12 @@
+@media only screen and (min-width: 1260px) {
+  .button-step button:hover {
+    cursor: pointer;
+    color: #EE4242;
+    background: #FFFBFB;
+  }
+}
+
+
 @media only screen and (max-width: 1260px) {
   .steps-title {
     font-size: 24px !important;

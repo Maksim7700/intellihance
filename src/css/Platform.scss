@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1260px) {
+  .video-button button:hover {
+    cursor: pointer;
+    color: #EE4242;
+    background: #FFFBFB;
+  }
+}
+
 @media only screen and (max-width: 1260px) {
   .platrofm-div {
     padding-top: 64px !important;
@@ -26,12 +34,15 @@
     padding-left: 16px !important;
     padding-top: 16px !important;
   }
-  .video embed{
+  .video iframe{
     max-height: 314px;
     max-width: 522px;
     width: 100% !important;
   }
   .video-box {
+    justify-content: center;
+    flex-direction: row !important;
+    width: 100% !important;
     margin-left: auto !important;
     margin-right: auto;
   }
@@ -133,9 +144,14 @@
   flex-direction: column;
 }
 
-.video embed{
+.video iframe{
   height: 314px;
   width: 522px;
+}
+
+.video video {
+  max-width: 1260px !important;
+  width: 100% !important;
 }
 
 .video{

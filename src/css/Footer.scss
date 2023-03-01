@@ -89,3 +89,24 @@
 .social-left {
   margin-left: 0px !important;
 }
+
+
+
+@media only screen and (min-width: 1260px) {
+
+  .social img:hover {
+    cursor: pointer;
+  }
+
+  .term:hover {
+    cursor: pointer;
+  }
+
+  .privacy:hover {
+    cursor: pointer;
+  }
+
+  .email:hover {
+    cursor: pointer;
+  }
+}
