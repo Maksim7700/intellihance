@@ -1,9 +1,15 @@
 $red-color: #EE4242;
 @media only screen and (min-width: 1260px) {
   .get-started-started:hover{
+    border: none !important;
     cursor: pointer;
-    background: #FFFBFB !important;
+    background: #F1F1F1 !important;
     color: #EE4242 !important;
+  }
+  .sign-in-started:hover {
+    background: #F1F1F1;
+    border: none !important;
+    color: #EE4242;
   }
 }
 @media only screen and (max-width: 1260px) {

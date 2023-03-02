@@ -14,7 +14,7 @@ const IntellihanceTM = () => {
               <p/>
               Intellihance™ can provide you with simple, actionable insights about your market and industry.<br/>
               Most importantly, we deliver results immediately.</div>
-          <div className='intellihance-tm-button'><button className='Montserrat-500'>Try for FREE</button></div>
+          <div className='intellihance-tm-button'><a href='https://ideaconsult.biz/get-started/'><button className='Montserrat-500'>Try for FREE</button></a></div>
         </div>
       </div>
     </Container>

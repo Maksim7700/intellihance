@@ -6,21 +6,19 @@ import intellihance from '../images/intellihance-logo.svg';
 import { useState } from 'react';
 
 const Header = () => {
-
   const [menu, setMenu] = useState(false);
 
   const openCloseMenu = () => {
-    console.log(!menu)
     setMenu(!menu);
   }
 
   return (
     <Container>
-      <div className='d-flex justify-content-between'>
+      <div className={`d-flex justify-content-between`}>
         <div className='logo'><img src={intellihance} alt='intellihance'/></div>
         <div className='buttons d-flex'>
-          <button className='sign-in Montserrat-500'>Sign In</button>
-          <button className='get-started Montserrat-500'>Get Started</button>
+          <a href='https://www.intellihance.biz/'><button className='sign-in Montserrat-500'>Sign In</button></a>
+          <a href='https://ideaconsult.biz/get-started/'><button className='get-started Montserrat-500'>Get Started</button></a>
         </div>
         <label className={`navbar-toggler ${menu ? '' : 'margin-top-more'}`} onClick={openCloseMenu}>
           <span className={`bar ${!menu ? '' : 'bar-1'}`}></span>
@@ -28,8 +26,8 @@ const Header = () => {
           <span className={`bar ${!menu ? '' : 'bar-3'}`}></span>
         </label>
         <div className={`nav-list ${menu ? '' : 'd-none'}`}>
-          <button className='sign-in Montserrat-500'>Sign In</button>
-          <button className='get-started Montserrat-500'>Get Started</button>
+          <a href='https://www.intellihance.biz/'><button className='sign-in Montserrat-500'>Sign In</button></a>
+          <a href='https://ideaconsult.biz/get-started/'><button className='get-started Montserrat-500'>Get Started</button></a>
     </div>
       </div>
     </Container>

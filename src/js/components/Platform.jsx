@@ -46,7 +46,7 @@ const Platform = () => {
               <iframe src='https://www.youtube.com/embed/zC4rZpHf8tw?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=1&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fideaconsult.biz&amp;widgetid=1' allowFullScreen title='Y'></iframe>
               </div>
           </div>
-          <div className='video-button'><button className='Montserrat-500'>Try Now</button></div>
+          <div className='video-button'><a href='https://ideaconsult.biz/get-started/'><button className='Montserrat-500'>Try Now</button></a></div>
           </div>
         </div>
       </div>

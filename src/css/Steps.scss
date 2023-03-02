@@ -1,8 +1,9 @@
 @media only screen and (min-width: 1260px) {
   .button-step button:hover {
+    border: none !important;
     cursor: pointer;
     color: #EE4242;
-    background: #FFFBFB;
+    background: #F1F1F1;
   }
 }
 
@@ -41,6 +42,10 @@
   }
   .button-step {
     margin-top: 0 !important;
+  }
+
+  .button-step a {
+    width: 100% !important;
   }
 
   .button-step button {

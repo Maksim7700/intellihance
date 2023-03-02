@@ -1,8 +1,9 @@
 @media only screen and (min-width: 1260px) {
-  button:hover {
+  .button .get-started:hover {
     cursor: pointer;
     color: white;
     background: #F35D5D;
+    border: none !important;
   }
 }
 @media only screen and (max-width: 1260px) {
@@ -24,12 +25,17 @@
     margin-top: 16px !important ;
   }
 
+  .button a{
+    max-width: 1260px !important;
+    width: 100% !important;
+  }
+
   .button {
     margin-top: 24px !important;
   }
 
   .button button {
-    max-width: 343px !important;
+    max-width: 1260px !important;
   }
 
  }
@@ -69,9 +75,17 @@
 }
 
 .button .get-started {
+  color: white;
+  background: #EE4242;
+  border: none;
   font-size: 16px;
   max-width: 204px;
   height: 54px;
   width: 100%;
   border-radius: 6px;
+}
+
+.button a {
+  max-width: 204px;
+  width: 100%;
 }

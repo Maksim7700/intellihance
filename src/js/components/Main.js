@@ -8,7 +8,7 @@ const Main = () => {
       <div className='main'>
         <div className='title'><div className='Rifton'>HARNESSING BUSINESS INTELLIGENCE</div></div>
         <div className='desc'><div className='Montserrat-500 desc-text'>Equipping Business Consultants, Marketing Consultants, Venture Capitalists, and Accelerators/Incubators with Real-Time, actionable data and insights for a winning business strategy.</div></div>
-        <div className='button'><button className='get-started Montserrat-500'>Get started</button></div>
+        <div className='button'><a href='https://ideaconsult.biz/get-started/'><button className='get-started Montserrat-500'>Get started</button></a></div>
       </div>
     </Container>
   )

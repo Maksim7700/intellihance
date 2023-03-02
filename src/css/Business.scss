@@ -3,6 +3,7 @@
     cursor: pointer;
     color: white;
     background: #F35D5D;
+    border: none !important;
   }
 }
 
@@ -127,6 +128,12 @@
   justify-content: center;
 }
 
+.business-button a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .business-button button {
   font-size: 16px;
   width: 204px;

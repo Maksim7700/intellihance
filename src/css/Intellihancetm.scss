@@ -3,6 +3,7 @@
     cursor: pointer;
     color: white;
     background: #F35D5D;
+    border: none !important;
   }
 }
 
@@ -31,6 +32,9 @@
   .intellihance-tm-button {
     display: flex;
     justify-content: center;
+  }
+  .intellihance-tm-button a {
+    width: 100%;
   }
   .intellihance-tm-button button {
     margin-top: 24px !important;

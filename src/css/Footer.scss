@@ -49,7 +49,7 @@
   justify-content: space-between;
 }
 
-.social img {
+.social a {
   margin-left: 16px;
 }
 
@@ -90,12 +90,22 @@
   margin-left: 0px !important;
 }
 
+.social {
+  display: flex;
+}
+
+.social a {
+  height: 40px;
+  width: 40px;
+}
+
 
 
 @media only screen and (min-width: 1260px) {
 
-  .social img:hover {
+  .social a:hover svg rect{
     cursor: pointer;
+    fill: #F35D5D;
   }
 
   .term:hover {
