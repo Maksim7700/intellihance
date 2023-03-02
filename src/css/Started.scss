@@ -7,6 +7,7 @@ $red-color: #EE4242;
     color: #EE4242 !important;
   }
   .sign-in-started:hover {
+    cursor: pointer;
     background: #F1F1F1;
     border: none !important;
     color: #EE4242;
@@ -16,6 +17,9 @@ $red-color: #EE4242;
   .started-title  {
     font-size: 20px !important;
     line-height: 26px !important;
+  }
+  .started-buttons a button:hover {
+    cursor: pointer;
   }
   .started {
     padding-top: 32px !important;
@@ -42,6 +46,12 @@ $red-color: #EE4242;
     margin-bottom: 16px !important;
   }
 
+}
+.started-buttons a {
+  width: 204px;
+}
+.a-started {
+  margin-left: 8px;
 }
 .started {
   padding-bottom: 64px;
@@ -86,7 +96,6 @@ $red-color: #EE4242;
 .get-started-started {
   font-size: 16px !important;
   color: $red-color;
-  margin-left: 8px;
   background-color: #FFFFFF;
   border: none;
 }
