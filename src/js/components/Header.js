@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <Container>
-      <div className={`d-flex justify-content-between`}>
+      <div className={`d-flex justify-content-between header`}>
         <div className='logo'><img src={intellihance} alt='intellihance'/></div>
         <div className='buttons d-flex'>
           <a href='https://www.intellihance.biz/'><button className='sign-in Montserrat-500'>Sign In</button></a>
