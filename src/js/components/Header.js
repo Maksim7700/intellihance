@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <Container>
-      <div className={`d-flex justify-content-between header ${changeHeadColor ? 'border-bottom' : ''}`}>
+      <div className={`d-flex justify-content-between header ${changeHeadColor ? 'border-bottom' : 'border-bottom-0'}`}>
         <div className='header-widht'>
         <div className='logo'><img src={intellihance} alt='intellihance'/></div>
         <div className='buttons d-flex'>

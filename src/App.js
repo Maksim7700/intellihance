@@ -1,28 +1,15 @@
-import Business from './js/components/Business';
-import Footer from './js/components/Footer';
-import Header from './js/components/Header';
-import IntellihanceTM from './js/components/IntellihanceTM';
-import Main from './js/components/Main';
-import Platform from './js/components/Platform';
-import Solution from './js/components/Solution';
-import Started from './js/components/Started';
-import Statistic from './js/components/Statistic';
-import Steps from './js/components/Steps';
+import {Routes, Route } from 'react-router-dom';
+import { PrivacyPolicy } from './js/pages/PrivacyPolicy';
+import { Home } from './js/pages/Home';
+import TermsOfUse from './js/pages/TermsOfUse';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Statistic />
-      <IntellihanceTM />
-      <Platform />
-      <Business />
-      <Steps />
-      <Solution />
-      <Started />
-      <Footer />
-    </>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+        <Route path='/terms-of-use' element={<TermsOfUse />} />
+      </Routes>
   );
 }
 

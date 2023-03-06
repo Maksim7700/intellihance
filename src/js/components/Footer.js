@@ -5,14 +5,19 @@ import sms from '../images/sms-tracking.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+
+
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <Container>
-      <div className='footer' data-aos="fade-up">
+      <div className='footer'>
         <div className='footer-head'>
           <div className='footer-logo'><img src={intellihance} alt='intellihance'/></div>
           <div className='social'>
@@ -52,8 +57,8 @@ const Footer = () => {
         <div className='hr'></div>
         <div className='footer-fot'>
           <div className='terms'>
-            <div className='term Montserrat-400'>Terms of Use</div>
-            <div className='privacy Montserrat-400'>Privacy Policy</div>
+            <div className='term Montserrat-400'><Link to={'/terms-of-use'} target='_blank'>Terms of Use</Link></div>
+            <div className='privacy Montserrat-400'><Link to={'/privacy-policy'} target='_blank'>Privacy Policy</Link></div>
           </div>
           <div className='Montserrat-400 email'><img src={sms} alt='email'/>team@intellihance.com</div>
         </div>
