@@ -2,15 +2,21 @@ import Container from '../UI/Containter'
 import '../../css/Solution.scss';
 import demoImg from '../images/demo.png';
 import demoImg2 from '../images/demo2.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Solution = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Container>
         <div className='solution'>
           <div>
             <div className='solution-title Rifton'>Solutions</div>
           </div>
-          <div className='demo-solution'>
+          <div className='demo-solution'  data-aos="fade-up">
             <div className='demo-image'><img src={demoImg} alt='Demo'/></div>
             <div className='demo-text-box'>
               <div className='pre-title Montserrat-500'>For Consultants</div>
@@ -21,10 +27,10 @@ const Solution = () => {
               &emsp;&#8226;&emsp;Organize reports by clients<br/>
               &emsp;&#8226;&emsp;Extend your access to five team members<br/>
               Request a customized demo of Intellihance and explore how it can streamline your business model today.</div>
-              <div className='demo-button'><a href='https://calendly.com/ideaconsultbiz/intellihancedemo_45min?month=2023-03'><button className='Montserrat-500'>Book a Demo</button></a></div>
+              <div className='demo-button'><a href='https://calendly.com/ideaconsultbiz/intellihancedemo_45min?month=2023-03' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Book a Demo</button></a></div>
             </div>
           </div>
-          <div><div className='demo-solution demo-solution-entrepreneurs'>
+          <div><div className='demo-solution demo-solution-entrepreneurs'  data-aos="fade-up">
             <div className='demo-text-box-right'>
               <div className='pre-title Montserrat-500'>For Entrepreneurs</div>
               <div className='demo-title Rifton'>Get the latest market metrics you need to validate your business idea</div>
@@ -33,7 +39,7 @@ const Solution = () => {
                 &emsp;&#8226;&emsp;User-friendly Interface<br/>
                 &emsp;&#8226;&emsp;Description of every data set, helping you make sense out of it<br/>
                 &emsp;&#8226;&emsp;Report Summary page highlighting the most important metrics</div>
-              <div className='demo-button '><a href='https://calendly.com/ideaconsultbiz/intellihancedemo_45min?month=2023-03'><button className='Montserrat-500'>Book a Demo</button></a></div>
+              <div className='demo-button '><a href='https://calendly.com/ideaconsultbiz/intellihancedemo_45min?month=2023-03' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Book a Demo</button></a></div>
             </div>
             <div className='demo-image'><img src={demoImg2} alt='Demo'/></div>
           </div></div>

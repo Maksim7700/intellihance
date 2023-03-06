@@ -10,6 +10,13 @@ $white-color: white;
   }
 }
 @media only screen and (max-width: 1260px) {
+  .border-bottom {
+    border-bottom: none !important;
+  }
+  .border-bottom-mobile {
+    border-bottom: 1px solid #FEEDED;
+    transition: .4s;
+  }
   .logo img{
     width: 148px !important;
     height: 28px !important;
@@ -156,10 +163,23 @@ $white-color: white;
   width: 100%;
   right: 0;
   transition: .4s;
-  background-color: hsla(0,0%,100%,.95);
+  background-color: hsla(0,0%,100%,.97);
   padding-bottom: 16px;
 }
 
 .buttons {
   margin-top: 19px;
+}
+
+.header-widht {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1438px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #FEEDED;
+  transition: .4s;
 }

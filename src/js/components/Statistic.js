@@ -1,10 +1,16 @@
 import Container from '../UI/Containter';
 import '../../css/Statistic.scss';
 import '../../css/fonts/fonts.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Statistic = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className='statistic'>
+    <div className='statistic' data-aos="fade-up">
       <Container>
         <div className='d-flex flex-direction-column justify-content-center'>
           <div className='image-mockup d-flex justify-content-center'>

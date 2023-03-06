@@ -6,9 +6,16 @@ import taskSquare from '../images/task-square.svg';
 import user1 from '../images/1_.svg';
 import document2 from '../images/2_.svg';
 import task3 from '../images/3_.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Steps = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className='steps-red'>
+    <div className='steps-red' data-aos="fade-up">
       <Container>
         <div className='steps'>
           <div>
@@ -32,7 +39,7 @@ const Steps = () => {
               <div className='Montserrat-400 step-task-desc'>Select a Plan to Generate your Report</div>
             </div>
           </div>
-          <div className='button-step'><a href='https://ideaconsult.biz/get-started/'><button className='Montserrat-500'>Get Started</button></a></div>
+          <div className='button-step'><a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Get Started</button></a></div>
         </div>
       </Container>
     </div>

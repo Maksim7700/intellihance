@@ -1,9 +1,15 @@
 import Container from '../UI/Containter';
 import '../../css/Platform.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Platform = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className='platrofm-div'>
+    <div className='platrofm-div' data-aos="fade-up">
     <Container>
       <div className='platform'>
         <div className='platform-title Rifton'>A One-Stop Market Research Platform</div>
@@ -46,7 +52,7 @@ const Platform = () => {
               <iframe src='https://www.youtube.com/embed/zC4rZpHf8tw?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=1&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fideaconsult.biz&amp;widgetid=1' allowFullScreen title='Y'></iframe>
               </div>
           </div>
-          <div className='video-button'><a href='https://ideaconsult.biz/get-started/'><button className='Montserrat-500'>Try Now</button></a></div>
+          <div className='video-button'><a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Try Now</button></a></div>
           </div>
         </div>
       </div>
