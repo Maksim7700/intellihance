@@ -19,7 +19,6 @@ const Solution = () => {
           <div className='demo-solution'  data-aos="fade-up">
             <div className='demo-image'><img src={demoImg} alt='Demo'/></div>
             <div className='demo-text-box'>
-              <div className='pre-title Montserrat-500'>For Consultants</div>
               <div className='demo-title Rifton'>Streamline research time for better client support</div>
               <div className='demo-text Montserrat-400'> Access unlimited report creation capabilities and get the latest 5-Year data profiles, in less than a minute:<br/>
               &emsp;&#8226;&emsp;Compare up to 5 markets<br/>
@@ -32,7 +31,6 @@ const Solution = () => {
           </div>
           <div><div className='demo-solution demo-solution-entrepreneurs'  data-aos="fade-up">
             <div className='demo-text-box-right'>
-              <div className='pre-title Montserrat-500'>For Entrepreneurs</div>
               <div className='demo-title Rifton'>Get the latest market metrics you need to validate your business idea</div>
               <div className='demo-text Montserrat-400'>Unlike other report-generating tools, Intellihance™ lets you customize your data search for the specific market and industry of your choice.
                 It saves you time, cuts down your research costs, and delivers clear data sets to build your business plan.<br/>
