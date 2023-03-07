@@ -4,6 +4,9 @@ import { Home } from './js/pages/Home';
 import TermsOfUse from './js/pages/TermsOfUse';
 
 function App() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
   return (
       <Routes>
         <Route path='/' element={<Home />}/>
