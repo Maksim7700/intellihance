@@ -26,7 +26,7 @@ const Steps = () => {
             <div className='step-task'>
               <div className='step-img'><img src={userOctagon} alt='User octagon'/></div>
               <div className='step-img2'><img src={user1} alt='User octagon'/></div>
-              <div className='Montserrat-400 step-task-desc'>Create your Account</div>
+              <div className='Montserrat-400 step-task-desc'>Create Account</div>
             </div>
             <div className='step-task'>
               <div className='step-img'><img src={documentFavorite} alt='Document favorite'/></div>
@@ -39,7 +39,7 @@ const Steps = () => {
               <div className='Montserrat-400 step-task-desc'>Select a Plan to Generate your Report</div>
             </div>
           </div>
-          <div className='button-step'><a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Get Started</button></a></div>
+          <div className='button-step'><a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Create Account</button></a></div>
         </div>
       </Container>
     </div>

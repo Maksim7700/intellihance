@@ -1,6 +1,8 @@
 $red-color: #EE4242;
 $white-color: white;
 
+
+
 @media only screen and (min-width: 1260px) {
   .buttons button:hover {
     cursor: pointer;
@@ -101,7 +103,6 @@ $white-color: white;
 }
 .buttons {
   max-width: 424px;
-  width: 100%;
   justify-content: space-between;
 }
 
@@ -175,7 +176,7 @@ $white-color: white;
 .header-widht {
   display: flex;
   justify-content: space-between;
-  max-width: 1438px;
+  max-width: 1468px;
   width: 100%;
   margin: 0 auto;
 }

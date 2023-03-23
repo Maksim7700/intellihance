@@ -5,7 +5,6 @@ import sms from '../images/sms-tracking.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -19,9 +18,20 @@ const Footer = () => {
     <Container>
       <div className='footer'>
         <div className='footer-head'>
-          <div className='footer-logo'><img src={intellihance} alt='intellihance'/></div>
+          <div className='footer-logo'><a href='https://ideaconsult.biz/' target="_blank" rel="noreferrer"><img src={intellihance} alt='intellihance'/></a></div>
           <div className='social'>
-            <a href='https://www.linkedin.com/company/idea-consult-biz/' target="_blank" rel="noreferrer" className='social-left linkedin'>
+            <div className='first-social'>
+            <a href='https://ideaconsult.biz/' target="_blank" rel="noreferrer" className='social-left intellihance'>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="40" height="40" rx="6" fill="#EE4242"/>
+              <path d="M20 30C25.5228 30 30 25.5228 30 20C30 14.4772 25.5228 10 20 10C14.4772 10 10 14.4772 10 20C10 25.5228 14.4772 30 20 30Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.9996 11H16.9996C15.0496 16.84 15.0496 23.16 16.9996 29H15.9996" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23 11C24.95 16.84 24.95 23.16 23 29" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11 24V23C16.84 24.95 23.16 24.95 29 23V24" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11 17.0016C16.84 15.0516 23.16 15.0516 29 17.0016" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </a>
+            <a href='https://www.linkedin.com/company/idea-consult-biz/' target="_blank" rel="noreferrer" className='linkedin'>
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="40" height="40" rx="6" fill="#EE4242"/>
                 <path d="M15.6 28H12.2V17.3H15.6V28ZM13.9 15.8C12.8 15.8 12 15 12 13.9C12 12.8 12.9 12 13.9 12C15 12 15.8 12.8 15.8 13.9C15.8 15 15 15.8 13.9 15.8ZM28 28H24.6V22.2C24.6 20.5 23.9 20 22.9 20C21.9 20 20.9 20.8 20.9 22.3V28H17.5V17.3H20.7V18.8C21 18.1 22.2 17 23.9 17C25.8 17 27.8 18.1 27.8 21.4V28H28Z" fill="white"/>
@@ -39,6 +49,8 @@ const Footer = () => {
                 <path d="M29 14.6154C28.325 14.9385 27.65 15.0462 26.8625 15.1538C27.65 14.7231 28.2125 14.0769 28.4375 13.2154C27.7625 13.6462 26.975 13.8615 26.075 14.0769C25.4 13.4308 24.3875 13 23.375 13C21.0125 13 19.2125 15.1538 19.775 17.3077C16.7375 17.2 14.0375 15.8 12.125 13.6462C11.1125 15.2615 11.675 17.3077 13.25 18.3846C12.6875 18.3846 12.125 18.1692 11.5625 17.9538C11.5625 19.5692 12.8 21.0769 14.4875 21.5077C13.925 21.6154 13.3625 21.7231 12.8 21.6154C13.25 23.0154 14.6 24.0923 16.2875 24.0923C14.9375 25.0615 12.9125 25.6 11 25.3846C12.6875 26.3538 14.6 27 16.625 27C23.4875 27 27.3125 21.5077 27.0875 16.4462C27.875 16.0154 28.55 15.3692 29 14.6154Z" fill="white"/>
               </svg>
             </a>
+            </div>
+            <div className='second-social'>
             <a href='https://www.facebook.com/IdeaConsult.biz' target="_blank" rel="noreferrer" className='facebook'><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="40" height="40" rx="6" fill="#EE4242"/>
               <path d="M29 20C29 15.05 24.95 11 20 11C15.05 11 11 15.05 11 20C11 24.5 14.2625 28.2125 18.5375 28.8875V22.5875H16.2875V20H18.5375V17.975C18.5375 15.725 19.8875 14.4875 21.9125 14.4875C22.925 14.4875 23.9375 14.7125 23.9375 14.7125V16.9625H22.8125C21.6875 16.9625 21.35 17.6375 21.35 18.3125V20H23.825L23.375 22.5875H21.2375V29C25.7375 28.325 29 24.5 29 20Z" fill="white"/>
@@ -52,15 +64,16 @@ const Footer = () => {
                 <path d="M25.3012 15.9036C25.9666 15.9036 26.506 15.3642 26.506 14.6988C26.506 14.0334 25.9666 13.494 25.3012 13.494C24.6358 13.494 24.0964 14.0334 24.0964 14.6988C24.0964 15.3642 24.6358 15.9036 25.3012 15.9036Z" fill="white"/>
               </svg>
             </a>
+            </div>
           </div>
         </div>
         <div className='hr'></div>
         <div className='footer-fot'>
           <div className='terms'>
-            <div className='term Montserrat-400'><Link to={'/terms-of-use'} target='_blank'>Terms of Use</Link></div>
-            <div className='privacy Montserrat-400'><Link to={'/privacy-policy'} target='_blank'>Privacy Policy</Link></div>
+            <div className='term Montserrat-400'><a href='https://ideaconsult.biz/terms-conditions/' target='_blank' rel="noreferrer">Terms of Use</a></div>
+            <div className='privacy Montserrat-400'><a href='https://ideaconsult.biz/privacy-policy/' target='_blank' rel="noreferrer">Privacy Policy</a></div>
           </div>
-          <div className='Montserrat-400 email'><img src={sms} alt='email'/>team@intellihance.com</div>
+          <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjsvCJKkfqNhTqWDhhrHmTsVkfMcRcxmvMDclLJNDQjljCqrjtbdCvtpqRFtnlHCbXtwJH' target='_blank' rel="noreferrer"><div className='Montserrat-400 email'><img src={sms} alt='email'/>info@ideaconsult.biz</div></a>
         </div>
       </div>
     </Container>

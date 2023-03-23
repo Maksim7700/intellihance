@@ -1,3 +1,19 @@
+@media only screen and (max-width: 353px) {
+  .social {
+    flex-direction: column;
+  }
+  .first-social {
+    margin: 0 auto;
+  }
+  .second-social{
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .facebook {
+    margin-left: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 1260px) {
   .footer-head {
     justify-content: center !important;
@@ -80,6 +96,11 @@
 
 .email img {
   margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
 }
 
 .term {

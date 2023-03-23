@@ -10,11 +10,11 @@ const Statistic = () => {
     AOS.init();
   }, []);
   return (
-    <div className='statistic' data-aos="fade-up">
+    <div className='statistic' >
       <Container>
         <div className='d-flex flex-direction-column justify-content-center'>
           <div className='image-mockup d-flex justify-content-center'>
-            <img src={'../Mockup.svg'} alt='mockup'/>
+            <img src={'../mockup.svg'} data-aos="fade-up" alt='mockup'/>
           </div>
           <div className='before-stats-block'>
             <div className='stats'>

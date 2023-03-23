@@ -29,10 +29,9 @@ const Header = () => {
     <Container>
       <div className={`d-flex justify-content-between header ${changeHeadColor ? 'border-bottom' : 'border-bottom-0'}`}>
         <div className='header-widht'>
-        <div className='logo'><img src={intellihance} alt='intellihance'/></div>
+        <div className='logo'><a href='https://ideaconsult.biz/' target="_blank" rel="noreferrer"><img src={intellihance} alt='intellihance'/></a></div>
         <div className='buttons d-flex'>
-          <a href='https://www.intellihance.biz/' target="_blank" rel="noreferrer"><button className='sign-in Montserrat-500'>Sign In</button></a>
-          <a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='get-started Montserrat-500'>Get Started</button></a>
+          <a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='get-started Montserrat-500'>Create Account</button></a>
         </div>
         <label className={`navbar-toggler ${menu ? '' : 'margin-top-more'}`} onClick={openCloseMenu}>
           <span className={`bar ${!menu ? '' : 'bar-1'}`}></span>
@@ -40,8 +39,7 @@ const Header = () => {
           <span className={`bar ${!menu ? '' : 'bar-3'}`}></span>
         </label>
         <div className={`nav-list ${menu ? '' : 'd-none'} ${changeHeadColor ? 'border-bottom-mobile' : ''}`}>
-          <a href='https://www.intellihance.biz/' target="_blank" rel="noreferrer"><button className='sign-in Montserrat-500'>Sign In</button></a>
-          <a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='get-started Montserrat-500'>Get Started</button></a>
+          <a href='https://ideaconsult.biz/get-started/' target="_blank" rel="noreferrer"><button className='get-started Montserrat-500'>Create Account</button></a>
     </div>
       </div>
       </div>
