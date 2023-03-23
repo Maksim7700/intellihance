@@ -40,7 +40,26 @@ const Solution = () => {
               <div className='demo-button '><a href='https://calendly.com/ideaconsultbiz/intellihancedemo_45min?month=2023-03' target="_blank" rel="noreferrer"><button className='Montserrat-500'>Book a Demo</button></a></div>
             </div>
             <div className='demo-image'><img src={demoImg2} alt='Demo'/></div>
-          </div></div>
+          </div>
+          </div>
+          <div className='solution-title Rifton'>Sources</div>
+
+          <div className='before-stats-block bf-2'>
+            <div className='stats'>
+              <div className='block b-2 block-1'>
+                <img src={'./Group1.svg'} alt='Gensus'></img>
+              </div>
+              <div className='block b-2'>
+              <img src={'./Group2.svg'} alt='IBISWorld'></img>
+              </div>
+              <div className='block b-2'>
+              <img src={'./Group3.svg'} alt='BEA'></img>
+              </div>
+              <div className='block b-2 block-last'>
+              <img src={'./Group4.svg'} alt='BLS'></img>
+              </div>
+            </div>
+          </div>
         </div>
     </Container>
   )

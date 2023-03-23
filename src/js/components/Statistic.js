@@ -19,20 +19,20 @@ const Statistic = () => {
           <div className='before-stats-block'>
             <div className='stats'>
               <div className='block block-1'>
-                <div className='mocks Rifton'>20,000</div>
-                <div className='values Montserrat-500'>Markets Analyzed</div>
+                <div className='mocks Rifton'>45,000 +</div>
+                <div className='values Montserrat-500'>Areas</div>
               </div>
               <div className='block'>
-                <div className='mocks Rifton'>10+ million</div>
-                <div className='values Montserrat-500'>US Businesses</div>
-              </div>
-              <div className='block'>
-                <div className='mocks Rifton'>9,000 +</div>
+                <div className='mocks Rifton'>1,500 +</div>
                 <div className='values Montserrat-500'>Industries</div>
               </div>
+              <div className='block'>
+                <div className='mocks Rifton'>7,200 +</div>
+                <div className='values Montserrat-500'>Major Players</div>
+              </div>
               <div className='block block-last'>
-                <div className='mocks Rifton'>184 Billion+</div>
-                <div className='values Montserrat-500'>Market Combinations</div>
+                <div className='mocks Rifton'>30 sec</div>
+                <div className='values Montserrat-500'>Time to produce a report</div>
               </div>
             </div>
           </div>
