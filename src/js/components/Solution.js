@@ -42,9 +42,9 @@ const Solution = () => {
             <div className='demo-image'><img src={demoImg2} alt='Demo'/></div>
           </div>
           </div>
-          <div className='solution-title Rifton'>Sources</div>
+          <div className='solution-title Rifton' data-aos="fade-up">Sources</div>
 
-          <div className='before-stats-block bf-2'>
+          <div className='before-stats-block bf-2' data-aos="fade-up">
             <div className='stats'>
               <div className='block b-2 block-1'>
                 <img src={'./Group1.svg'} alt='Gensus'></img>

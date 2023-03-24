@@ -32,7 +32,7 @@ const Statistic = () => {
               </div>
               <div className='block block-last'>
                 <div className='mocks Rifton'>30 sec</div>
-                <div className='values Montserrat-500'>Time to produce a report</div>
+                <div className='values Montserrat-500'>Report in real-time</div>
               </div>
             </div>
           </div>
